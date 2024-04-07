@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contactus.css">
+    <title>Shubh Developers</title>
+</head>
+
+<style>
+   
+
+.parallax {
+      /* The image used */
+      background-image: url("./bgimg2.jpg");
+    
+      /* Set a specific height */
+      min-height: 350px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+ 
+
+    
+.mobile-container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: black;
+  border: 2px solid white;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.topnav #myLinks1 {
+  display: none;
+}/*
+.topnav #myLinks2 {
+  display: none;
+}
+.topnav #myLinks3 {
+  display: none;
+}*/
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active1 {
+  background-color: black;
+  color: white;
+}
+
+   
+</style>
+<body>
+    <header> <!--This header part-->
+      <div class="navbar">
+        <img src="./main.jpg"  class="logo">
+        <ul>     
+         
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#">PROJECTS <i class="fas fa-caret-down"></i></a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li class="hover-me"><a href="#">ONGOING PROJECTS <i class="fas fa-caret-right"></i></a>
+                    <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="#">SHUBH INFINITY</a></li>
+                          <li><a href="#">SHUBH NIVARA</a></li>
+                          <li><a href="#">SHUBH SHAGUN</a></li>
+                          <li><a href="#">SHUBH GATEWAY</a></li>
+                          <li><a href="#">SHUBH TRISTAR</a></li>
+                        </ul>
+    
+                    </div> 
+                  </li>
+                  <li class="hover-me"><a href="#">COMPLETED PROJECTS <i class="fas fa-caret-right"></i></a>
+                    <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="#">AAUGUSTA</a></li>
+                          <li><a href="#">MIO PALAZZO</a></li>
+                          <li><a href="#">GLOBAL BUSINESS HUB</a></li>
+                          <li><a href="#">MERIDIAN</a></li>
+                        </ul>
+    
+                    </div>
+                
+                  </li>
+                </ul>
+    
+              </div>
+            
+            </li>
+            <li class="active"><a href="nri.html">NRI</a></li>
+            <li ><a href="investor.html">INVESTOR'S CORNER</a></li>
+            <li><a href="#">BLOGS</a></li>
+            <li ><a href="career.html">CAREER</a></li>
+            <li><a href="contactus.html">CONCTACT US</a></li>
+    
+        </ul>
+    <br>
+    
+          
+    </div>
+    </header>
+    <div class="parallax"></div> <!--This is parallax-->
+   <!--This is Resources part-->     
+    <h2 style="color: white;">RESOURCES FOR NRIS</h2>
+    <div class="mobile-container">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a class="active1">WHY INDIA</a>
+        <div id="myLinks">
+         <pre> ROBUST DEMAND
+               INCREASING INVESTMENT
+               POLICY BENEFITS
+               ATTRACTIVE OPPORTUNITIES</pre>
+          
+        </div><br><br>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa-solid fa-plus"></i>
+        </a>
+        <div class="topnav">
+          <a class="active1">INDIAN REAL ESTATE MARKET SCENARIO</a>
+          <div id="myLinks1">
+           <pre>                  India's real estate market is expected to reach US$ 180 billion by 2020 from US$ 126 billion in 2015.
+                 This sector is expected to contribute around 11%
+                 to India's GDP by 2020
+                 Nuclear families, rapid urbanization and rising household income are remain the key drivers for real estate growth.</pre>
+            
+          </div>
+<br><br>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+          <i class="fa-solid fa-plus"></i>
+        </a>
+      </div>
+      <!--
+      <div class="topnav">
+        <a class="active1">WHY INVEST IN INDIA?</a>
+        <div id="myLinks2">
+         <pre> World's most promising fastest growing economy
+               Expected to be top 3 economic power in the coming years
+               Developing nation means we have vast potential for growth in real estate sector
+               Housing industry growing 5% year on year
+               A sensible investment option during these volatile times.</pre>
+          
+        </div><br><br>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+          <i class="fa-solid fa-plus"></i>
+        </a>
+      
+        <div class="topnav">
+          <a class="active1">WHY PUNE?</a>
+          <div id="myLinks3">
+           <pre> Oxford of the East
+                 Reasonable Cost of Living & Rapide Real Estate Appreciation
+                 'Weather' Queen of the Deccan
+                 A Booming IT Hub
+                 Safe City</pre>
+            
+          </div><br><br>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction3()">
+            <i class="fa-solid fa-plus"></i>
+          </a>
+
+
+          <div class="topnav">
+          <a class="active1">WHY SHUBH DEVELOPER</a>
+          <div id="myLinks4">
+           <pre>As an NRI, you seek a perfect blend of luxury, elite living, and
+                 indigenous feel. Taking the right cognizance of your feelings we build customized spaces
+                 to accommodate every need of yours. We connect you with your own roots in India, fulfilling 
+                 your desire for the X factor you are searching for.</pre>
+            
+          </div><br><br>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction4()">
+            <i class="fa-solid fa-plus"></i>
+          </a>
+       End smartphone / tablet look -->
+
+
+
+      </div>
+    
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+    
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+      function myFunction1() {
+        var x = document.getElementById("myLinks1");
+    
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+/*
+      function myFunction2() {
+        var x = document.getElementById("myLinks2");
+    
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      function myFunction3() {
+        var x = document.getElementById("myLinks3");
+    
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      function myFunction4() {
+        var x = document.getElementById("myLinks4");
+    
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      
+      */
+      </script>
+  
+</div><br><br><br><br>
+
+<hr><!--last part of page-->
+<div class="lastpart" style="display: flex; margin-left: 80px;">
+    <div class="subh" style="color: aliceblue; margin-left: 20px;">
+        <img src="./main1.jpg" height="70px" width="70px"><br><br>
+        <p>This inspiration has brought us <br>together to 
+        establish the company in <br>2011. The strong bonds and
+         sense of<br> trust amongst the <br>founders is the cornerstone of our business.</p><br><br>
+
+        <b>(c) SHUBH DEVELOPERS,2022.</b><br>
+        DESIGN BY <a href="#" style="color: aliceblue;">SHUBH DEVELOPERS</a></b>
+    </div>
+    <div class="links1" style="margin-left: 40px;">
+          <h3 style="color: aliceblue;">&nbsp;&nbsp;&nbsp;&nbsp;Follow Us</h3><br>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-linkedin" style="color: rgb(233, 136, 9);"></i>&nbsp;&nbsp;LINKEDIN</a></li><br>
+            <li><a href="#"><i class="fa-brands fa-youtube" style="color: rgb(233, 136, 9);"></i>&nbsp;&nbsp;YOUTUBE</a></li><br>
+            <li><a href="#"><i class="fa-brands fa-instagram" style="color: rgb(233, 136, 9);"></i>&nbsp;&nbsp;INSTAGRAM</a></li><br>
+            <li><a href="#"><i class="fa-brands fa-facebook" style="color: rgb(233, 136, 9);"></i>&nbsp;&nbsp;FACEBOOK</a></li><br>
+          </ul>
+    </div>
+    <div class="links1 " style="margin-left: 40px;">
+        <h3 style="color: aliceblue;">&nbsp;&nbsp;&nbsp;&nbsp;Links</h3><br>
+        <ul>
+            <li><a href="#">MEDIA</a></li><br>
+            <li><a href="#">UPDATES</a></li><br>
+            <li><a href="#">OFFERS</a></li><br>
+            <li><a href="#">CSR ACTIVITES</a></li><br>
+            <li><a href="#">CAREER</a></li><br>
+            <li><a href="#">CONTACT US</a></li>
+            
+        </ul>
+    </div>
+    <div style="color: aliceblue; margin-left: 40px;">
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</h3><br>
+        <i class="fa fa-phone" aria-hidden="true" style="color: rgb(233, 136, 9);"></i>  &nbsp;&nbsp;&nbsp;&nbsp; <b>Phone:</b><br>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<b>+91 88 88 88 60 09</b><br><br>
+        <i class="fa-solid fa-envelope" style="color: rgb(233, 136, 9);"></i> &nbsp;&nbsp; &nbsp;&nbsp;<b>E-mail:</b><br>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;sales@shubhdevelopers.com<br><br>
+        <i class="fa-solid fa-location-dot" style="color: rgb(233, 136, 9);"></i>
+         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Address:</b><br>
+  
+        &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Mittal House,M2,13,14,Nisarg Co-op <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Housing 
+        Society,Opp Golf 
+         Cousrse,Near Narayan Sweets,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yerwada,Pune 411006
+
+
+    </div>
+</div>
+<footer><a href="">
+  <i class="fa-brands fa-whatsapp" style="color: rgb(7, 194, 69); float: right; position: fixed;right: 0; bottom: 0;margin-right: 30px; font-size:40px; margin-bottom: 10px;"></i>
+  </a></footer>
+</body>
+</html>
